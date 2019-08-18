@@ -1,22 +1,24 @@
-package main.java.sample.Controller;
+package sample.Controller;
 
-import main.java.sample.View.Gui;
 
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import sample.View.Gui;
+
+import javax.swing.*;
 
 public class buttonActionListener extends AbstractAction {
 
     private Gui gui;
     private JButton button;
 
-    public buttonActionListener(Gui gui, JButton button) {
+    public buttonActionListener(Gui gui, JButton buttons) {
         super();
         this.gui = gui;
-        this.button = button;
+        this.button = buttons;
+
         button.addMouseListener(new MouseAdapter() {
 
             @Override

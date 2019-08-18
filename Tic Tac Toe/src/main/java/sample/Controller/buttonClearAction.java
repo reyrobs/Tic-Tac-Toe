@@ -1,6 +1,6 @@
-package main.java.sample.Controller;
+package sample.Controller;
 
-import main.java.sample.View.Gui;
+import sample.View.Gui;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

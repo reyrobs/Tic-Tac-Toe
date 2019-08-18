@@ -1,4 +1,4 @@
-package main.java.sample.Model.Button;
+package sample.Model.Button;
 
 import javax.swing.*;
 

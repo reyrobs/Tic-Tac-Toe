@@ -1,10 +1,11 @@
-package main.java.sample.View;
+package sample.View;
 
-import main.java.sample.Controller.buttonActionListener;
-import main.java.sample.Controller.buttonClearAction;
+import sample.Controller.buttonClearAction;
 import main.java.sample.Controller.exitAction;
-import main.java.sample.Model.Button.buttonClear;
-import main.java.sample.Model.Button.buttonExit;
+import sample.Controller.buttonActionListener;
+import sample.Model.Button.buttonClear;
+import sample.Model.Button.buttonExit;
+
 
 import javax.swing.*;
 import java.awt.*;

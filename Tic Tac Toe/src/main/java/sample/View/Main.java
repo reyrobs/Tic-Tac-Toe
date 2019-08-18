@@ -1,9 +1,9 @@
-package main.java.sample.View;
+package sample.View;
 
 
 public class Main {
 
     public static void main(String[] args) {
-        new main.java.sample.View.Gui();
+        new sample.View.Gui();
     }
 }
